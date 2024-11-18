@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ReBuster)(type Legacy)(uri ${KIPRJMOD}/ReBuster.lib)(options "")(descr ""))
+)
