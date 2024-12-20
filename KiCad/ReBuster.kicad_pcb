@@ -519,7 +519,7 @@
     (path /605BA8E0)
     (zone_connect 2)
     (attr smd)
-    (fp_text reference U6 (at 0 7.2 -180) (layer B.SilkS) hide
+    (fp_text reference U6 (at -5.92162 -4.362 -180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SN74CBTD16210 (at 0 -7.2 -180) (layer B.Fab) hide
@@ -656,7 +656,7 @@
     (path /605B82D1)
     (zone_connect 2)
     (attr smd)
-    (fp_text reference U5 (at 0 7.2) (layer B.SilkS) hide
+    (fp_text reference U5 (at -6.3458 2.965) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SN74CBTD16210 (at 0 -7.2) (layer B.Fab) hide
@@ -795,7 +795,7 @@
     (path /6058DC08)
     (zone_connect 2)
     (attr smd)
-    (fp_text reference U3 (at 0 7.2) (layer B.SilkS) hide
+    (fp_text reference U3 (at -6.3458 -1.8855) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SN74CBTD16210 (at 0 -7.2) (layer B.Fab) hide
@@ -1150,14 +1150,14 @@
     )
   )
 
-  (module ReBuster:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm (layer B.Cu) (tedit 6628ED96) (tstamp 64DE883E)
+  (module ReBuster:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm (layer B.Cu) (tedit 6628ED96) (tstamp 6765C49E)
     (at 138.53782 67.6776)
     (descr "TSSOP, 48 Pin (JEDEC MO-153 Var ED https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /605AF950)
     (zone_connect 2)
     (attr smd)
-    (fp_text reference U4 (at 0 7.2 -180) (layer B.SilkS) hide
+    (fp_text reference U4 (at -5.92162 1.8855 -180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SN74CBTD16210 (at 0 -7.2 -180) (layer B.Fab) hide
