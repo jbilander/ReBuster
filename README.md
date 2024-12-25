@@ -31,6 +31,12 @@ This is WORK IN PROGRESS. If you generate gerbers and order PCBs from this sourc
 
 ***
 
+<a href="images/pin_assignment_rebuster_rev1a.jpg">
+<img src="images/pin_assignment_rebuster_rev1a.jpg" width="746" height="806">
+</a>
+
+***
+
 BOM Rev. 1A
 ---------
 Reference  | Name/Value   | Package | Notes
