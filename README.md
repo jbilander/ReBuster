@@ -5,6 +5,18 @@ This is WORK IN PROGRESS. If you generate gerbers and order PCBs from this sourc
 
 ***
 
+<a href="images/ReBuster_pic1.jpg">
+<img src="images/ReBuster_pic1.jpg" width="256" height="192">
+</a>
+<a href="images/ReBuster_pic2.jpg">
+<img src="images/ReBuster_pic2.jpg" width="256" height="192">
+</a>
+<a href="images/ReBuster_pic3.jpg">
+<img src="images/ReBuster_pic3.jpg" width="256" height="192">
+</a>
+
+***
+
 <a href="images/ReBuster_screenshot_pic1.png">
 <img src="images/ReBuster_screenshot_pic1.png" width="688" height="592">
 </a>
