@@ -1333,7 +1333,7 @@
     (fp_text reference U1 (at -6.7402 4.44 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10M02SCU169C8G (at 0 6.5 90) (layer F.Fab) hide
+    (fp_text value "GW1N-UV9UG169C6/I5 " (at 0 6.5 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.75 5.75) (end -5.75 -5.75) (layer F.CrtYd) (width 0.05))
