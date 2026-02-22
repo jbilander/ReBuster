@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text GLabel 3650 4600 3    50   Input ~ 0
 GND
-Text GLabel 3500 1300 1    50   Input ~ 0
+Text GLabel 3250 1300 1    50   Input ~ 0
 3V3
 Text GLabel 6050 4800 2    50   Input ~ 0
 EBR3_FPGA
@@ -733,30 +733,31 @@ Connection ~ 7950 5300
 Wire Wire Line
 	7950 5300 8300 5300
 Wire Wire Line
-	3600 1300 3700 1300
-Connection ~ 3700 1300
-Wire Wire Line
-	3700 1300 3800 1300
-Connection ~ 3800 1300
-Wire Wire Line
-	3800 1300 3900 1300
-Connection ~ 3900 1300
-Wire Wire Line
-	3900 1300 4000 1300
-Connection ~ 4000 1300
-Wire Wire Line
-	4000 1300 4100 1300
-Connection ~ 4100 1300
-Wire Wire Line
-	4100 1300 4200 1300
-Connection ~ 4200 1300
-Wire Wire Line
-	4200 1300 4300 1300
-Connection ~ 4300 1300
-Wire Wire Line
-	4300 1300 4400 1300
+	3450 6200 3450 7000
+Text GLabel 1150 3900 0    50   Input ~ 0
+3V3
+Text GLabel 1150 5100 0    50   Input ~ 0
+GND
+Text GLabel 1150 5500 0    50   Input ~ 0
+GND
+NoConn ~ 1150 5200
+NoConn ~ 3650 6200
+NoConn ~ 6050 3500
+$Comp
+L ReBuster:10M02SCU169 U1
+U 1 1 699B1469
+P 3600 3750
+F 0 "U1" H 3600 3900 60  0000 C CNN
+F 1 "10M02SCU169" H 3600 3750 60  0000 C CNN
+F 2 "ReBuster:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.35mm_NSMD" H 3600 4100 60  0001 C CNN
+F 3 "" H 5050 4950 60  0000 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3000 4600 3100 4600
+Wire Wire Line
+	1800 1300 1900 1300
 Connection ~ 3100 4600
 Wire Wire Line
 	3100 4600 3200 4600
@@ -799,68 +800,67 @@ Wire Wire Line
 Connection ~ 4400 4600
 Wire Wire Line
 	4400 4600 4500 4600
+Connection ~ 1900 1300
 Wire Wire Line
-	3450 6200 3450 7000
-Text GLabel 1150 3900 0    50   Input ~ 0
-3V3
-Text GLabel 1150 5100 0    50   Input ~ 0
-GND
-Text GLabel 1150 5500 0    50   Input ~ 0
-GND
-NoConn ~ 1150 5200
-NoConn ~ 3650 6200
-NoConn ~ 6050 3500
-$Comp
-L ReBuster:GW1N-UV9UG169 U1
-U 1 1 60A0E571
-P 3600 3750
-F 0 "U1" H 3600 3800 60  0000 C CNN
-F 1 "GW1N-UV9UG169C6/I5 " H 3600 3950 60  0000 C CNN
-F 2 "ReBuster:BGA-169_11.0x11.0mm_Layout13x13_P0.8mm_Ball0.5mm_Pad0.35mm_NSMD" H 3600 5950 60  0001 C CNN
-F 3 "" H 1150 5850 60  0000 C CNN
-	1    3600 3750
-	1    0    0    -1  
-$EndComp
+	1900 1300 2000 1300
+Connection ~ 2000 1300
 Wire Wire Line
-	2050 1300 2150 1300
-Connection ~ 2150 1300
+	2000 1300 2100 1300
+Connection ~ 2100 1300
 Wire Wire Line
-	2150 1300 2250 1300
-Connection ~ 2250 1300
+	2100 1300 2200 1300
+Connection ~ 2200 1300
 Wire Wire Line
-	2250 1300 2350 1300
-Connection ~ 2350 1300
+	2200 1300 2300 1300
+Connection ~ 2300 1300
 Wire Wire Line
-	2350 1300 2450 1300
-Connection ~ 2450 1300
+	2300 1300 2400 1300
+Connection ~ 2400 1300
 Wire Wire Line
-	2450 1300 2550 1300
-Connection ~ 2550 1300
+	2400 1300 2500 1300
+Connection ~ 2500 1300
 Wire Wire Line
-	2550 1300 2650 1300
-Connection ~ 2650 1300
+	2500 1300 2600 1300
+Connection ~ 2600 1300
 Wire Wire Line
-	2650 1300 2750 1300
-Connection ~ 2750 1300
+	2600 1300 2700 1300
+Connection ~ 2700 1300
 Wire Wire Line
-	2750 1300 2850 1300
-Connection ~ 2850 1300
+	2700 1300 2800 1300
+Connection ~ 2800 1300
 Wire Wire Line
-	2850 1300 2950 1300
-Connection ~ 2950 1300
+	2800 1300 2900 1300
+Connection ~ 2900 1300
 Wire Wire Line
-	2950 1300 3050 1300
-Connection ~ 3050 1300
+	2900 1300 3000 1300
+Connection ~ 3000 1300
 Wire Wire Line
-	3050 1300 3150 1300
-Connection ~ 3150 1300
+	3000 1300 3100 1300
+Connection ~ 3100 1300
 Wire Wire Line
-	3150 1300 3250 1300
-Connection ~ 3250 1300
-Wire Wire Line
-	3250 1300 3350 1300
-Wire Wire Line
-	3600 1300 3350 1300
+	3100 1300 3600 1300
 Connection ~ 3600 1300
-Connection ~ 3350 1300
+Wire Wire Line
+	3600 1300 3700 1300
+Connection ~ 3700 1300
+Wire Wire Line
+	3700 1300 3800 1300
+Connection ~ 3800 1300
+Wire Wire Line
+	3800 1300 3900 1300
+Connection ~ 3900 1300
+Wire Wire Line
+	3900 1300 4000 1300
+Connection ~ 4000 1300
+Wire Wire Line
+	4000 1300 4100 1300
+Connection ~ 4100 1300
+Wire Wire Line
+	4100 1300 4200 1300
+Connection ~ 4200 1300
+Wire Wire Line
+	4200 1300 4300 1300
+Connection ~ 4300 1300
+Wire Wire Line
+	4300 1300 4400 1300
 $EndSCHEMATC
