@@ -105,8 +105,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 11350 5350 50  0001 
 	1    9700 4900
 	1    0    0    -1  
 $EndComp
-Text Label 12200 950  2    50   ~ 0
-NC2
 Text Label 7150 3800 2    50   ~ 0
 NC3
 Text Label 9200 3800 2    50   ~ 0
@@ -125,8 +123,6 @@ Text GLabel 7150 2350 0    50   Input ~ 0
 VCC
 Connection ~ 2850 6850
 Connection ~ 2850 7150
-Wire Wire Line
-	13200 1050 13200 950 
 Wire Wire Line
 	10200 3900 10200 3800
 Wire Wire Line
@@ -162,7 +158,7 @@ Text GLabel 8150 3800 2    50   Input ~ 0
 GND
 Text GLabel 8150 4500 2    50   Input ~ 0
 GND
-Text GLabel 12200 2350 0    50   Input ~ 0
+Text GLabel 9200 1550 0    50   Input ~ 0
 VCC
 Text GLabel 9200 1850 0    50   Input ~ 0
 GND
@@ -180,7 +176,7 @@ Text GLabel 7150 4500 0    50   Input ~ 0
 GND
 Text GLabel 7150 5200 0    50   Input ~ 0
 VCC
-Text GLabel 13200 3250 2    50   BiDi ~ 0
+Text GLabel 10500 3150 2    50   BiDi ~ 0
 SIZ1_FPGA
 Text GLabel 8150 1450 2    50   Output ~ 0
 EBR4_FPGA
@@ -208,7 +204,7 @@ Text GLabel 8150 3150 2    50   BiDi ~ 0
 SLAVE1_FPGA
 Text GLabel 8150 3250 2    50   BiDi ~ 0
 SLAVE2_FPGA
-Text GLabel 13200 1150 2    50   Output ~ 0
+Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
 Text GLabel 13200 1250 2    50   BiDi ~ 0
 DOE_FPGA
@@ -238,7 +234,7 @@ Text GLabel 13200 2750 2    50   BiDi ~ 0
 STERM_FPGA
 Text GLabel 13200 3050 2    50   Input ~ 0
 DS_FPGA
-Text GLabel 13200 3150 2    50   BiDi ~ 0
+Text GLabel 10500 3050 2    50   BiDi ~ 0
 AS_FPGA
 Text GLabel 8150 4000 2    50   BiDi ~ 0
 SLAVE3_FPGA
@@ -369,10 +365,10 @@ F 3 "~" H 2150 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ReBuster:Super_Buster_socket U7
+L ReBuster:Super_Buster_socket U8
 U 1 1 65330DEC
 P 1850 3500
-F 0 "U7" H 1850 3400 50  0000 C CNN
+F 0 "U8" H 1850 3400 50  0000 C CNN
 F 1 "PLCC_84_plug" H 1850 3500 50  0000 C CNN
 F 2 "ReBuster:PLCC-84_Plug_P1.27mm_mirrored" H 2250 6000 50  0001 L CIN
 F 3 "" H 1850 3700 50  0001 C CNN
@@ -551,9 +547,9 @@ Text GLabel 12200 2450 0    50   BiDi ~ 0
 RW
 Text GLabel 12200 2650 0    50   BiDi ~ 0
 SIZ0
-Text GLabel 12200 3250 0    50   BiDi ~ 0
+Text GLabel 9200 3150 0    50   BiDi ~ 0
 SIZ1
-Text GLabel 12200 3150 0    50   BiDi ~ 0
+Text GLabel 9200 3050 0    50   BiDi ~ 0
 AS
 Text GLabel 12200 3050 0    50   Output ~ 0
 DS
@@ -587,7 +583,7 @@ Text GLabel 12200 1250 0    50   BiDi ~ 0
 DTACK
 Text GLabel 12200 1150 0    50   BiDi ~ 0
 DOE
-Text GLabel 12200 1050 0    50   Input ~ 0
+Text GLabel 9200 5100 0    50   Input ~ 0
 WAIT
 Text GLabel 9200 6100 0    50   BiDi ~ 0
 BR
@@ -720,10 +716,10 @@ EDS0
 Text GLabel 7150 4100 0    50   BiDi ~ 0
 EDS0
 $Comp
-L ReBuster:Super_Buster_socket U8
+L ReBuster:Super_Buster_socket U9
 U 1 1 67490817
 P 4800 3500
-F 0 "U8" H 4800 3400 50  0000 C CNN
+F 0 "U9" H 4800 3400 50  0000 C CNN
 F 1 "PLCC_84_plug" H 4800 3500 50  0000 C CNN
 F 2 "ReBuster:PLCC-84_TH_pin_holes" H 5200 6000 50  0001 L CIN
 F 3 "" H 4800 3700 50  0001 C CNN
@@ -900,7 +896,7 @@ Wire Wire Line
 Connection ~ 5700 5900
 Wire Wire Line
 	5700 5900 5700 6000
-Text GLabel 9200 5100 0    50   Input ~ 0
+Text GLabel 12600 1150 0    50   Input ~ 0
 GND
 Text GLabel 7150 2450 0    50   Input ~ 0
 GND
@@ -913,7 +909,6 @@ Text GLabel 13200 2850 2    50   BiDi ~ 0
 DSACK1_FPGA
 Text GLabel 13200 2950 2    50   Output ~ 0
 DSACK0_FPGA
-NoConn ~ 10200 5200
 $Comp
 L ReBuster:SN74LVC16T245DGVR U4
 U 1 1 69A5D76D
@@ -930,5 +925,36 @@ GND
 Text GLabel 10500 2950 2    50   Input ~ 0
 GND
 Text GLabel 9200 2950 0    50   Input ~ 0
+GND
+Text GLabel 9200 950  0    50   Input ~ 0
+DIR_U4
+Text GLabel 9200 3250 0    50   Input ~ 0
+DIR_U4
+Text GLabel 10500 950  2    50   Input ~ 0
+OE
+Text GLabel 10500 3250 2    50   Input ~ 0
+OE
+Text GLabel 9200 2650 0    50   Input ~ 0
+VCC
+Text GLabel 10500 1550 2    50   Input ~ 0
+3V3
+Text GLabel 10500 2650 2    50   Input ~ 0
+3V3
+$Comp
+L Logic_LevelTranslator:74LVC2T45DC U7
+U 1 1 69AF9BA6
+P 6250 6800
+F 0 "U7" H 6650 7250 50  0000 C CNN
+F 1 "74LVC2T45DC" H 6850 7150 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6250 5950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf" H 6500 6550 50  0001 C CNN
+	1    6250 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 6300 1    50   Input ~ 0
+3V3
+Text GLabel 6350 6300 1    50   Input ~ 0
+VCC
+Text GLabel 6250 7300 3    50   Input ~ 0
 GND
 $EndSCHEMATC
