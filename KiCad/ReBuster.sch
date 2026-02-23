@@ -127,17 +127,6 @@ Wire Wire Line
 	10200 3900 10200 3800
 Wire Wire Line
 	8150 3900 8150 3800
-$Comp
-L ReBuster:SN74CBTD16210 U3
-U 1 1 6058DC08
-P 7650 2050
-F 0 "U3" H 7650 3417 50  0000 C CNN
-F 1 "SN74CBTD16210" H 7650 3326 50  0000 C CNN
-F 2 "ReBuster:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 2500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C CNN
-	1    7650 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 8150 1650 2    50   Input ~ 0
 GND
 Text GLabel 10500 1850 2    50   Input ~ 0
@@ -188,7 +177,7 @@ Text GLabel 8150 2050 2    50   Input ~ 0
 EBG1_FPGA
 Text GLabel 8150 2250 2    50   BiDi ~ 0
 EDS1_FPGA
-Text GLabel 8150 2350 2    50   BiDi ~ 0
+Text GLabel 10500 2450 2    50   BiDi ~ 0
 FCS_FPGA
 Text GLabel 8150 2650 2    50   Input ~ 0
 EBG2_FPGA
@@ -206,33 +195,33 @@ Text GLabel 8150 3250 2    50   BiDi ~ 0
 SLAVE2_FPGA
 Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
-Text GLabel 13200 1250 2    50   BiDi ~ 0
-DOE_FPGA
-Text GLabel 13200 1350 2    50   BiDi ~ 0
-DTACK_FPGA
 Text GLabel 13200 1450 2    50   BiDi ~ 0
+DOE_FPGA
+Text GLabel 5650 6750 0    50   BiDi ~ 0
+DTACK_FPGA
+Text GLabel 5650 6950 0    50   BiDi ~ 0
 MTACK_FPGA
 Text GLabel 13200 1550 2    50   BiDi ~ 0
 CIIN_FPGA
-Text GLabel 13200 1850 2    50   Output ~ 0
+Text GLabel 13200 1750 2    50   Output ~ 0
 SBR_FPGA
-Text GLabel 13200 1950 2    50   BiDi ~ 0
+Text GLabel 13200 1850 2    50   BiDi ~ 0
 RMC_FPGA
-Text GLabel 13200 2050 2    50   BiDi ~ 0
+Text GLabel 10500 2550 2    50   BiDi ~ 0
 CCS_FPGA
-Text GLabel 13200 2150 2    50   BiDi ~ 0
+Text GLabel 13200 1950 2    50   BiDi ~ 0
 A2_FPGA
-Text GLabel 13200 2250 2    50   BiDi ~ 0
+Text GLabel 13200 2050 2    50   BiDi ~ 0
 A1_FPGA
-Text GLabel 13200 1750 2    50   Input ~ 0
+Text GLabel 13200 1650 2    50   Input ~ 0
 SBG_FPGA
-Text GLabel 13200 2450 2    50   BiDi ~ 0
+Text GLabel 10500 2750 2    50   BiDi ~ 0
 RW_FPGA
-Text GLabel 13200 2650 2    50   BiDi ~ 0
+Text GLabel 10500 2850 2    50   BiDi ~ 0
 SIZ0_FPGA
-Text GLabel 13200 2750 2    50   BiDi ~ 0
+Text GLabel 13200 2250 2    50   BiDi ~ 0
 STERM_FPGA
-Text GLabel 13200 3050 2    50   Input ~ 0
+Text GLabel 13200 2550 2    50   Input ~ 0
 DS_FPGA
 Text GLabel 10500 3050 2    50   BiDi ~ 0
 AS_FPGA
@@ -528,36 +517,36 @@ BINT_FPGA
 Text GLabel 8150 4600 2    50   BiDi ~ 0
 SLAVE4_FPGA
 $Sheet
-S 4350 6700 1050 500 
+S 3900 6700 1050 500 
 U 608A10F5
 F0 "ReBuster_FPGA" 50
 F1 "ReBuster_FPGA.sch" 50
 $EndSheet
-Text GLabel 7150 2250 0    50   BiDi ~ 0
+Text GLabel 9200 2450 0    50   BiDi ~ 0
 FCS
-Text GLabel 12200 1950 0    50   BiDi ~ 0
+Text GLabel 9200 2550 0    50   BiDi ~ 0
 CCS
-Text GLabel 12200 2050 0    50   BiDi ~ 0
+Text GLabel 12200 1950 0    50   BiDi ~ 0
 A2
-Text GLabel 12200 2150 0    50   BiDi ~ 0
+Text GLabel 12200 2050 0    50   BiDi ~ 0
 A1
-Text GLabel 12200 2250 0    50   BiDi ~ 0
+Text GLabel 12200 2150 0    50   BiDi ~ 0
 A0
-Text GLabel 12200 2450 0    50   BiDi ~ 0
+Text GLabel 9200 2750 0    50   BiDi ~ 0
 RW
-Text GLabel 12200 2650 0    50   BiDi ~ 0
+Text GLabel 9200 2850 0    50   BiDi ~ 0
 SIZ0
 Text GLabel 9200 3150 0    50   BiDi ~ 0
 SIZ1
 Text GLabel 9200 3050 0    50   BiDi ~ 0
 AS
-Text GLabel 12200 3050 0    50   Output ~ 0
+Text GLabel 12200 2550 0    50   Output ~ 0
 DS
-Text GLabel 12200 2950 0    50   Input ~ 0
+Text GLabel 12200 2450 0    50   Input ~ 0
 DSACK0
-Text GLabel 12200 2850 0    50   BiDi ~ 0
+Text GLabel 12200 2350 0    50   BiDi ~ 0
 DSACK1
-Text GLabel 12200 2750 0    50   BiDi ~ 0
+Text GLabel 12200 2250 0    50   BiDi ~ 0
 STERM
 Wire Wire Line
 	2750 5700 2750 5800
@@ -571,17 +560,17 @@ Text GLabel 12200 1850 0    50   BiDi ~ 0
 RMC
 Text GLabel 12200 1750 0    50   Input ~ 0
 SBR
-Text GLabel 12200 1550 0    50   Output ~ 0
+Text GLabel 12200 1650 0    50   Output ~ 0
 SBG
-Text GLabel 12200 1450 0    50   BiDi ~ 0
+Text GLabel 12200 1550 0    50   BiDi ~ 0
 CIIN
 Wire Wire Line
 	2750 5350 2750 5450
-Text GLabel 12200 1350 0    50   BiDi ~ 0
+Text GLabel 6450 6950 2    50   BiDi ~ 0
 MTACK
-Text GLabel 12200 1250 0    50   BiDi ~ 0
+Text GLabel 6450 6750 2    50   BiDi ~ 0
 DTACK
-Text GLabel 12200 1150 0    50   BiDi ~ 0
+Text GLabel 12200 1450 0    50   BiDi ~ 0
 DOE
 Text GLabel 9200 5100 0    50   Input ~ 0
 WAIT
@@ -896,18 +885,13 @@ Wire Wire Line
 Connection ~ 5700 5900
 Wire Wire Line
 	5700 5900 5700 6000
-Text GLabel 12600 1150 0    50   Input ~ 0
-GND
-Text GLabel 7150 2450 0    50   Input ~ 0
-GND
 Text GLabel 8150 1550 2    50   Output ~ 0
 EBR0_FPGA
-NoConn ~ 8150 2450
-Text GLabel 13200 2350 2    50   BiDi ~ 0
+Text GLabel 13200 2150 2    50   BiDi ~ 0
 A0_FPGA
-Text GLabel 13200 2850 2    50   BiDi ~ 0
+Text GLabel 13200 2350 2    50   BiDi ~ 0
 DSACK1_FPGA
-Text GLabel 13200 2950 2    50   Output ~ 0
+Text GLabel 13200 2450 2    50   Output ~ 0
 DSACK0_FPGA
 $Comp
 L ReBuster:SN74LVC16T245DGVR U4
@@ -943,18 +927,31 @@ Text GLabel 10500 2650 2    50   Input ~ 0
 $Comp
 L Logic_LevelTranslator:74LVC2T45DC U7
 U 1 1 69AF9BA6
-P 6250 6800
-F 0 "U7" H 6650 7250 50  0000 C CNN
-F 1 "74LVC2T45DC" H 6850 7150 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6250 5950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf" H 6500 6550 50  0001 C CNN
-	1    6250 6800
+P 6050 6850
+F 0 "U7" H 6450 7300 50  0000 C CNN
+F 1 "74LVC2T45DC" H 6650 7200 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6050 6000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf" H 6300 6600 50  0001 C CNN
+	1    6050 6850
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 6300 1    50   Input ~ 0
+Text GLabel 5950 6350 1    50   Input ~ 0
 3V3
-Text GLabel 6350 6300 1    50   Input ~ 0
+Text GLabel 6150 6350 1    50   Input ~ 0
 VCC
-Text GLabel 6250 7300 3    50   Input ~ 0
+Text GLabel 6050 7350 3    50   Input ~ 0
 GND
+Text GLabel 5650 7150 0    50   Input ~ 0
+DIR_U7
+$Comp
+L ReBuster:SN74CBTD16210 U3
+U 1 1 6058DC08
+P 7650 2050
+F 0 "U3" H 7650 3417 50  0000 C CNN
+F 1 "SN74CBTD16210" H 7650 3326 50  0000 C CNN
+F 2 "ReBuster:TSSOP-48_6.1x12.5mm_P0.5mm_padLength_1mm" H 9300 2500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C CNN
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -71,17 +71,17 @@ Text GLabel 1850 6200 3    50   BiDi ~ 0
 A1_FPGA
 Text GLabel 1150 4200 0    50   Output ~ 0
 SBG_FPGA
-Text GLabel 3250 6200 3    50   BiDi ~ 0
+Text GLabel 2650 6200 3    50   BiDi ~ 0
 RW_FPGA
-Text GLabel 3750 6200 3    50   BiDi ~ 0
+Text GLabel 2850 6200 3    50   BiDi ~ 0
 SIZ0_FPGA
 Text GLabel 3050 6200 3    50   BiDi ~ 0
 STERM_FPGA
 Text GLabel 3350 6200 3    50   BiDi ~ 0
 DSACK1_FPGA
-Text GLabel 2650 6200 3    50   Input ~ 0
+Text GLabel 2650 6900 3    50   Input ~ 0
 DSACK0_FPGA
-Text GLabel 2850 6200 3    50   Output ~ 0
+Text GLabel 2750 6900 3    50   Output ~ 0
 DS_FPGA
 Text GLabel 3150 6200 3    50   BiDi ~ 0
 AS_FPGA
