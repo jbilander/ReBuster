@@ -175,9 +175,9 @@ Text GLabel 8150 1950 2    50   Input ~ 0
 EBG0_FPGA
 Text GLabel 8150 2050 2    50   Input ~ 0
 EBG1_FPGA
-Text GLabel 8150 2250 2    50   BiDi ~ 0
+Text GLabel 10500 2550 2    50   BiDi ~ 0
 EDS1_FPGA
-Text GLabel 10500 2450 2    50   BiDi ~ 0
+Text GLabel 10500 2250 2    50   BiDi ~ 0
 FCS_FPGA
 Text GLabel 8150 2650 2    50   Input ~ 0
 EBG2_FPGA
@@ -207,7 +207,7 @@ Text GLabel 13200 1750 2    50   Output ~ 0
 SBR_FPGA
 Text GLabel 13200 1850 2    50   BiDi ~ 0
 RMC_FPGA
-Text GLabel 10500 2550 2    50   BiDi ~ 0
+Text GLabel 10500 2450 2    50   BiDi ~ 0
 CCS_FPGA
 Text GLabel 13200 1950 2    50   BiDi ~ 0
 A2_FPGA
@@ -522,9 +522,9 @@ U 608A10F5
 F0 "ReBuster_FPGA" 50
 F1 "ReBuster_FPGA.sch" 50
 $EndSheet
-Text GLabel 9200 2450 0    50   BiDi ~ 0
+Text GLabel 9200 2250 0    50   BiDi ~ 0
 FCS
-Text GLabel 9200 2550 0    50   BiDi ~ 0
+Text GLabel 9200 2450 0    50   BiDi ~ 0
 CCS
 Text GLabel 12200 1950 0    50   BiDi ~ 0
 A2
@@ -650,7 +650,7 @@ Text GLabel 7150 4300 0    50   BiDi ~ 0
 EA2
 Text GLabel 7150 4200 0    50   BiDi ~ 0
 EA3
-Text GLabel 7150 2150 0    50   BiDi ~ 0
+Text GLabel 9200 2550 0    50   BiDi ~ 0
 EDS1
 Text GLabel 7150 2050 0    50   BiDi ~ 0
 BINT
