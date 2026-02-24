@@ -115,7 +115,7 @@ Text GLabel 6050 4400 2    50   Output ~ 0
 ABOE0_FPGA
 Text GLabel 5250 6200 3    50   Input ~ 0
 MS2_FPGA
-Text GLabel 2850 6900 3    50   BiDi ~ 0
+Text GLabel 1150 5800 0    50   BiDi ~ 0
 MTCR_FPGA
 Text GLabel 6050 5100 2    50   BiDi ~ 0
 CINH_FPGA
