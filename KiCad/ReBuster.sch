@@ -915,9 +915,9 @@ DIR_U4
 Text GLabel 9200 3250 0    50   Input ~ 0
 DIR_U4
 Text GLabel 10500 950  2    50   Input ~ 0
-OE
+OE_U4
 Text GLabel 10500 3250 2    50   Input ~ 0
-OE
+OE_U4
 Text GLabel 9200 2650 0    50   Input ~ 0
 VCC
 Text GLabel 10500 1550 2    50   Input ~ 0

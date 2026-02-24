@@ -476,8 +476,6 @@ Text Notes 7500 4200 0    50   ~ 0
 0805
 Text GLabel 9250 1750 0    50   Input ~ 0
 JP1
-Text GLabel 10450 1250 3    50   Input ~ 0
-JP1
 Wire Wire Line
 	10350 850  10450 850 
 Text GLabel 1150 2000 0    50   Input ~ 0
@@ -863,4 +861,6 @@ F 3 "~" H 3650 7000 50  0001 C CNN
 $EndComp
 Text GLabel 3450 6900 0    50   Input ~ 0
 TP1
+Text GLabel 10450 1250 3    50   Input ~ 0
+OE_U4
 $EndSCHEMATC
