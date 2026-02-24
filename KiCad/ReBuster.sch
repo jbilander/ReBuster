@@ -267,7 +267,7 @@ Text GLabel 10200 4000 2    50   Input ~ 0
 DBR16_FPGA
 Text GLabel 10200 4100 2    50   Input ~ 0
 DBOE0_FPGA
-Text GLabel 10200 4300 2    50   BiDi ~ 0
+Text GLabel 10500 1150 2    50   BiDi ~ 0
 READ_FPGA
 Text GLabel 10200 4400 2    50   BiDi ~ 0
 EDS2_FPGA
@@ -602,13 +602,13 @@ Text GLabel 9200 3900 0    50   Output ~ 0
 DBR16
 Text GLabel 9200 4100 0    50   Output ~ 0
 DBLT
-Text GLabel 9200 4200 0    50   BiDi ~ 0
+Text GLabel 9200 1150 0    50   BiDi ~ 0
 READ
-Text GLabel 9200 4300 0    50   BiDi ~ 0
+Text GLabel 9150 4300 0    50   BiDi ~ 0
 EDS2
-Text GLabel 9200 4400 0    50   BiDi ~ 0
+Text GLabel 9150 4400 0    50   BiDi ~ 0
 EDS3
-Text GLabel 9200 4700 0    50   BiDi ~ 0
+Text GLabel 9150 4700 0    50   BiDi ~ 0
 LOCK_EA1
 Text GLabel 9200 4800 0    50   Output ~ 0
 ABOE2
@@ -618,7 +618,7 @@ Text GLabel 950  5100 0    50   Output ~ 0
 MS2
 Text GLabel 7150 5700 0    50   Input ~ 0
 MS2
-Text GLabel 7150 5800 0    50   BiDi ~ 0
+Text GLabel 7100 5800 0    50   BiDi ~ 0
 MTCR
 Text GLabel 2750 4650 2    50   Output ~ 0
 MS0
@@ -646,9 +646,9 @@ Text GLabel 7150 5600 0    50   Input ~ 0
 CLK90
 Text GLabel 7150 4400 0    50   BiDi ~ 0
 SLAVE4
-Text GLabel 7150 4300 0    50   BiDi ~ 0
+Text GLabel 7100 4300 0    50   BiDi ~ 0
 EA2
-Text GLabel 7150 4200 0    50   BiDi ~ 0
+Text GLabel 7100 4200 0    50   BiDi ~ 0
 EA3
 Text GLabel 9200 2550 0    50   BiDi ~ 0
 EDS1
@@ -702,7 +702,7 @@ Text GLabel 7150 4000 0    50   Output ~ 0
 EBCLR
 Text GLabel 2750 2850 2    50   BiDi ~ 0
 EDS0
-Text GLabel 7150 4100 0    50   BiDi ~ 0
+Text GLabel 7100 4100 0    50   BiDi ~ 0
 EDS0
 $Comp
 L ReBuster:Super_Buster_socket U9
