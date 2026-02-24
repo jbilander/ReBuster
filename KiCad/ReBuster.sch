@@ -269,7 +269,7 @@ Text GLabel 10200 4100 2    50   Input ~ 0
 DBOE0_FPGA
 Text GLabel 10500 1150 2    50   BiDi ~ 0
 READ_FPGA
-Text GLabel 10200 4400 2    50   BiDi ~ 0
+Text GLabel 10500 1350 2    50   BiDi ~ 0
 EDS2_FPGA
 Text GLabel 10200 4600 2    50   BiDi ~ 0
 EDS3_FPGA
@@ -604,7 +604,7 @@ Text GLabel 9200 4100 0    50   Output ~ 0
 DBLT
 Text GLabel 9200 1150 0    50   BiDi ~ 0
 READ
-Text GLabel 9150 4300 0    50   BiDi ~ 0
+Text GLabel 9200 1350 0    50   BiDi ~ 0
 EDS2
 Text GLabel 9150 4400 0    50   BiDi ~ 0
 EDS3

@@ -53,7 +53,7 @@ Text GLabel 5350 6200 3    50   Input ~ 0
 WAIT_FPGA
 Text GLabel 1150 4200 0    50   BiDi ~ 0
 DOE_FPGA
-Text GLabel 1150 5000 0    50   BiDi ~ 0
+Text GLabel 3050 6900 3    50   BiDi ~ 0
 DTACK_FPGA
 Text GLabel 2450 6900 3    50   BiDi ~ 0
 MTACK_FPGA
@@ -129,7 +129,7 @@ Text GLabel 4450 6200 3    50   Output ~ 0
 DBOE0_FPGA
 Text GLabel 1150 4000 0    50   BiDi ~ 0
 READ_FPGA
-Text GLabel 4650 6200 3    50   BiDi ~ 0
+Text GLabel 1150 5000 0    50   BiDi ~ 0
 EDS2_FPGA
 Text GLabel 4350 6200 3    50   BiDi ~ 0
 EDS3_FPGA
