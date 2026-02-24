@@ -275,7 +275,7 @@ Text GLabel 10500 1450 2    50   BiDi ~ 0
 EDS3_FPGA
 Text GLabel 10200 4700 2    50   Output ~ 0
 CDAC_FPGA
-Text GLabel 10200 4800 2    50   BiDi ~ 0
+Text GLabel 10500 1650 2    50   BiDi ~ 0
 LOCK_EA1_FPGA
 Text GLabel 10200 4900 2    50   Input ~ 0
 ABOE2_FPGA
@@ -608,7 +608,7 @@ Text GLabel 9200 1350 0    50   BiDi ~ 0
 EDS2
 Text GLabel 9200 1450 0    50   BiDi ~ 0
 EDS3
-Text GLabel 9150 4700 0    50   BiDi ~ 0
+Text GLabel 9200 1650 0    50   BiDi ~ 0
 LOCK_EA1
 Text GLabel 9200 4800 0    50   Output ~ 0
 ABOE2

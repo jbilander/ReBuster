@@ -61,7 +61,7 @@ Text GLabel 2950 6900 3    50   BiDi ~ 0
 CIIN_FPGA
 Text GLabel 2250 6900 3    50   Input ~ 0
 SBR_FPGA
-Text GLabel 1150 5600 0    50   BiDi ~ 0
+Text GLabel 3150 6900 3    50   BiDi ~ 0
 RMC_FPGA
 Text GLabel 3050 6200 3    50   BiDi ~ 0
 CCS_FPGA
@@ -135,7 +135,7 @@ Text GLabel 1150 4700 0    50   BiDi ~ 0
 EDS3_FPGA
 Text GLabel 6050 3700 2    50   Input ~ 0
 CDAC_FPGA
-Text GLabel 3950 6200 3    50   BiDi ~ 0
+Text GLabel 1150 5600 0    50   BiDi ~ 0
 LOCK_EA1_FPGA
 Text GLabel 3850 6200 3    50   Output ~ 0
 ABOE2_FPGA
