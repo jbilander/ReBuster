@@ -383,10 +383,8 @@ Text GLabel 10550 2700 3    50   Input ~ 0
 nSTATUS
 Text GLabel 10750 2700 3    50   Input ~ 0
 nCONFIG
-Text GLabel 10450 2300 1    50   Input ~ 0
+Text GLabel 10550 2300 1    50   Input ~ 0
 3V3
-Wire Wire Line
-	10450 2300 10550 2300
 Wire Wire Line
 	9750 1850 10550 1850
 Wire Wire Line
@@ -474,7 +472,7 @@ Text Notes 7500 3500 0    50   ~ 0
 0603
 Text Notes 7500 4200 0    50   ~ 0
 0805
-Text GLabel 9250 1750 0    50   Input ~ 0
+Text GLabel 8950 1800 0    50   Input ~ 0
 JP1
 Wire Wire Line
 	10350 850  10450 850 
@@ -616,7 +614,6 @@ Wire Wire Line
 	8100 1500 8500 1500
 Wire Wire Line
 	10550 2300 10650 2300
-Connection ~ 10550 2300
 Text GLabel 6050 2800 2    50   Input ~ 0
 GND
 Text GLabel 6050 4900 2    50   Input ~ 0
@@ -666,7 +663,6 @@ Wire Wire Line
 Connection ~ 10450 850 
 Wire Wire Line
 	10550 1250 10550 1850
-NoConn ~ 10450 2700
 NoConn ~ 1150 2700
 Text GLabel 1150 2400 0    50   Input ~ 0
 GND
@@ -863,4 +859,11 @@ Text GLabel 3450 6900 0    50   Input ~ 0
 TP1
 Text GLabel 10450 1250 3    50   Input ~ 0
 OE_U4
+NoConn ~ 9250 1750
+Text GLabel 10450 2700 3    50   Input ~ 0
+DIR_U7
+Text GLabel 10450 2300 1    50   Input ~ 0
+GND
+Text GLabel 3250 6200 3    50   Input ~ 0
+DIR_U7
 $EndSCHEMATC
