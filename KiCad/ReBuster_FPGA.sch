@@ -65,9 +65,9 @@ Text GLabel 1150 5600 0    50   BiDi ~ 0
 RMC_FPGA
 Text GLabel 3050 6200 3    50   BiDi ~ 0
 CCS_FPGA
-Text GLabel 1750 6200 3    50   BiDi ~ 0
+Text GLabel 6050 3300 2    50   BiDi ~ 0
 A2_FPGA
-Text GLabel 1850 6200 3    50   BiDi ~ 0
+Text GLabel 4900 1300 1    50   BiDi ~ 0
 A1_FPGA
 Text GLabel 1150 4200 0    50   Output ~ 0
 SBG_FPGA
@@ -677,7 +677,7 @@ Text GLabel 1150 4900 0    50   Input ~ 0
 GND
 NoConn ~ 1150 2300
 NoConn ~ 1150 2500
-Text GLabel 2050 6200 3    50   BiDi ~ 0
+Text GLabel 6050 3500 2    50   BiDi ~ 0
 A0_FPGA
 Text GLabel 6050 2900 2    50   BiDi ~ 0
 BINT_FPGA
@@ -726,7 +726,6 @@ Text GLabel 1150 5500 0    50   Input ~ 0
 GND
 NoConn ~ 1150 5200
 NoConn ~ 3650 6200
-NoConn ~ 6050 3500
 $Comp
 L ReBuster:10M02SCU169 U1
 U 1 1 699B1469

@@ -195,33 +195,33 @@ Text GLabel 8150 3250 2    50   BiDi ~ 0
 SLAVE2_FPGA
 Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
-Text GLabel 13200 1450 2    50   BiDi ~ 0
+Text GLabel 12350 1450 2    50   BiDi ~ 0
 DOE_FPGA
 Text GLabel 5650 6750 0    50   BiDi ~ 0
 DTACK_FPGA
 Text GLabel 5650 6950 0    50   BiDi ~ 0
 MTACK_FPGA
-Text GLabel 13200 1550 2    50   BiDi ~ 0
+Text GLabel 12350 1550 2    50   BiDi ~ 0
 CIIN_FPGA
-Text GLabel 13200 1750 2    50   Output ~ 0
+Text GLabel 12350 1750 2    50   Output ~ 0
 SBR_FPGA
-Text GLabel 13200 1850 2    50   BiDi ~ 0
+Text GLabel 12350 1850 2    50   BiDi ~ 0
 RMC_FPGA
 Text GLabel 10500 2450 2    50   BiDi ~ 0
 CCS_FPGA
-Text GLabel 13200 1950 2    50   BiDi ~ 0
+Text GLabel 8150 2250 2    50   BiDi ~ 0
 A2_FPGA
-Text GLabel 13200 2050 2    50   BiDi ~ 0
+Text GLabel 8150 2350 2    50   BiDi ~ 0
 A1_FPGA
-Text GLabel 13200 1650 2    50   Input ~ 0
+Text GLabel 12350 1650 2    50   Input ~ 0
 SBG_FPGA
 Text GLabel 10500 2750 2    50   BiDi ~ 0
 RW_FPGA
 Text GLabel 10500 2850 2    50   BiDi ~ 0
 SIZ0_FPGA
-Text GLabel 13200 2250 2    50   BiDi ~ 0
+Text GLabel 12350 1950 2    50   BiDi ~ 0
 STERM_FPGA
-Text GLabel 13200 2550 2    50   Input ~ 0
+Text GLabel 12350 2250 2    50   Input ~ 0
 DS_FPGA
 Text GLabel 10500 3050 2    50   BiDi ~ 0
 AS_FPGA
@@ -526,11 +526,11 @@ Text GLabel 9200 2250 0    50   BiDi ~ 0
 FCS
 Text GLabel 9200 2450 0    50   BiDi ~ 0
 CCS
-Text GLabel 12200 1950 0    50   BiDi ~ 0
+Text GLabel 7150 2150 0    50   BiDi ~ 0
 A2
-Text GLabel 12200 2050 0    50   BiDi ~ 0
+Text GLabel 7150 2250 0    50   BiDi ~ 0
 A1
-Text GLabel 12200 2150 0    50   BiDi ~ 0
+Text GLabel 7150 2450 0    50   BiDi ~ 0
 A0
 Text GLabel 9200 2750 0    50   BiDi ~ 0
 RW
@@ -540,13 +540,13 @@ Text GLabel 9200 3150 0    50   BiDi ~ 0
 SIZ1
 Text GLabel 9200 3050 0    50   BiDi ~ 0
 AS
-Text GLabel 12200 2550 0    50   Output ~ 0
+Text GLabel 12200 2250 0    50   Output ~ 0
 DS
-Text GLabel 12200 2450 0    50   Input ~ 0
+Text GLabel 12200 2150 0    50   Input ~ 0
 DSACK0
-Text GLabel 12200 2350 0    50   BiDi ~ 0
+Text GLabel 12200 2050 0    50   BiDi ~ 0
 DSACK1
-Text GLabel 12200 2250 0    50   BiDi ~ 0
+Text GLabel 12200 1950 0    50   BiDi ~ 0
 STERM
 Wire Wire Line
 	2750 5700 2750 5800
@@ -887,11 +887,11 @@ Wire Wire Line
 	5700 5900 5700 6000
 Text GLabel 8150 1550 2    50   Output ~ 0
 EBR0_FPGA
-Text GLabel 13200 2150 2    50   BiDi ~ 0
+Text GLabel 8150 2450 2    50   BiDi ~ 0
 A0_FPGA
-Text GLabel 13200 2350 2    50   BiDi ~ 0
+Text GLabel 12350 2050 2    50   BiDi ~ 0
 DSACK1_FPGA
-Text GLabel 13200 2450 2    50   Output ~ 0
+Text GLabel 12350 2150 2    50   Output ~ 0
 DSACK0_FPGA
 $Comp
 L ReBuster:SN74LVC16T245DGVR U4
