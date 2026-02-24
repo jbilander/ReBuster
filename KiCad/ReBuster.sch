@@ -195,7 +195,7 @@ Text GLabel 8150 3250 2    50   BiDi ~ 0
 SLAVE2_FPGA
 Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
-Text GLabel 12350 1450 2    50   BiDi ~ 0
+Text GLabel 10500 1050 2    50   BiDi ~ 0
 DOE_FPGA
 Text GLabel 5650 6750 0    50   BiDi ~ 0
 DTACK_FPGA
@@ -570,7 +570,7 @@ Text GLabel 6450 6950 2    50   BiDi ~ 0
 MTACK
 Text GLabel 6450 6750 2    50   BiDi ~ 0
 DTACK
-Text GLabel 12200 1450 0    50   BiDi ~ 0
+Text GLabel 9200 1050 0    50   BiDi ~ 0
 DOE
 Text GLabel 9200 5100 0    50   Input ~ 0
 WAIT

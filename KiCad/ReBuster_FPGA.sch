@@ -51,11 +51,11 @@ Text GLabel 2950 6200 3    50   Output ~ 0
 DBR16_FPGA
 Text GLabel 5350 6200 3    50   Input ~ 0
 WAIT_FPGA
-Text GLabel 1150 3600 0    50   BiDi ~ 0
+Text GLabel 1150 4200 0    50   BiDi ~ 0
 DOE_FPGA
 Text GLabel 1150 5000 0    50   BiDi ~ 0
 DTACK_FPGA
-Text GLabel 1150 4400 0    50   BiDi ~ 0
+Text GLabel 2450 6900 3    50   BiDi ~ 0
 MTACK_FPGA
 Text GLabel 1150 4000 0    50   BiDi ~ 0
 CIIN_FPGA
@@ -69,7 +69,7 @@ Text GLabel 6050 3300 2    50   BiDi ~ 0
 A2_FPGA
 Text GLabel 4900 1300 1    50   BiDi ~ 0
 A1_FPGA
-Text GLabel 1150 4200 0    50   Output ~ 0
+Text GLabel 2350 6900 3    50   Output ~ 0
 SBG_FPGA
 Text GLabel 2650 6200 3    50   BiDi ~ 0
 RW_FPGA
@@ -472,8 +472,6 @@ Text Notes 7500 3500 0    50   ~ 0
 0603
 Text Notes 7500 4200 0    50   ~ 0
 0805
-Text GLabel 8950 1800 0    50   Input ~ 0
-JP1
 Wire Wire Line
 	10350 850  10450 850 
 Text GLabel 1150 2000 0    50   Input ~ 0
@@ -840,23 +838,8 @@ Wire Wire Line
 Connection ~ 4300 1300
 Wire Wire Line
 	4300 1300 4400 1300
-Text GLabel 3400 7300 0    50   Input ~ 0
+Text GLabel 3450 6200 3    50   Input ~ 0
 DIR_U4
-Wire Wire Line
-	3450 6200 3450 7000
-$Comp
-L Connector:TestPoint_Small TP1
-U 1 1 655D4DC6
-P 3450 7000
-F 0 "TP1" H 3498 7000 50  0000 L CNN
-F 1 "TestPoint_Small" H 3498 6955 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3650 7000 50  0001 C CNN
-F 3 "~" H 3650 7000 50  0001 C CNN
-	1    3450 7000
-	1    0    0    -1  
-$EndComp
-Text GLabel 3450 6900 0    50   Input ~ 0
-TP1
 Text GLabel 10450 1250 3    50   Input ~ 0
 OE_U4
 NoConn ~ 9250 1750
@@ -866,4 +849,6 @@ Text GLabel 10450 2300 1    50   Input ~ 0
 GND
 Text GLabel 3250 6200 3    50   Input ~ 0
 DIR_U7
+Text GLabel 1150 4400 0    50   Input ~ 0
+OE_U4
 $EndSCHEMATC
