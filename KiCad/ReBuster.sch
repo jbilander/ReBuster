@@ -201,11 +201,11 @@ Text GLabel 5650 6750 0    50   BiDi ~ 0
 DTACK_FPGA
 Text GLabel 5650 6950 0    50   BiDi ~ 0
 MTACK_FPGA
-Text GLabel 12350 1550 2    50   BiDi ~ 0
+Text GLabel 10200 4300 2    50   BiDi ~ 0
 CIIN_FPGA
-Text GLabel 12350 1750 2    50   Output ~ 0
+Text GLabel 10200 4600 2    50   Output ~ 0
 SBR_FPGA
-Text GLabel 12350 1850 2    50   BiDi ~ 0
+Text GLabel 10200 4800 2    50   BiDi ~ 0
 RMC_FPGA
 Text GLabel 10500 2450 2    50   BiDi ~ 0
 CCS_FPGA
@@ -213,7 +213,7 @@ Text GLabel 8150 2250 2    50   BiDi ~ 0
 A2_FPGA
 Text GLabel 8150 2350 2    50   BiDi ~ 0
 A1_FPGA
-Text GLabel 12350 1650 2    50   Input ~ 0
+Text GLabel 10200 4400 2    50   Input ~ 0
 SBG_FPGA
 Text GLabel 10500 2750 2    50   BiDi ~ 0
 RW_FPGA
@@ -556,13 +556,13 @@ Wire Wire Line
 Connection ~ 2750 5900
 Wire Wire Line
 	2750 5900 2750 6000
-Text GLabel 12200 1850 0    50   BiDi ~ 0
+Text GLabel 9200 4700 0    50   BiDi ~ 0
 RMC
-Text GLabel 12200 1750 0    50   Input ~ 0
+Text GLabel 9200 4400 0    50   Input ~ 0
 SBR
-Text GLabel 12200 1650 0    50   Output ~ 0
+Text GLabel 9200 4300 0    50   Output ~ 0
 SBG
-Text GLabel 12200 1550 0    50   BiDi ~ 0
+Text GLabel 9200 4200 0    50   BiDi ~ 0
 CIIN
 Wire Wire Line
 	2750 5350 2750 5450

@@ -53,15 +53,15 @@ Text GLabel 5350 6200 3    50   Input ~ 0
 WAIT_FPGA
 Text GLabel 1150 4200 0    50   BiDi ~ 0
 DOE_FPGA
-Text GLabel 3050 6900 3    50   BiDi ~ 0
+Text GLabel 1150 3600 0    50   BiDi ~ 0
 DTACK_FPGA
-Text GLabel 3150 6900 3    50   BiDi ~ 0
+Text GLabel 1150 4800 0    50   BiDi ~ 0
 MTACK_FPGA
-Text GLabel 2850 6900 3    50   BiDi ~ 0
+Text GLabel 5050 6200 3    50   BiDi ~ 0
 CIIN_FPGA
-Text GLabel 2250 6900 3    50   Input ~ 0
+Text GLabel 4050 6200 3    50   Input ~ 0
 SBR_FPGA
-Text GLabel 2450 6900 3    50   BiDi ~ 0
+Text GLabel 3950 6200 3    50   BiDi ~ 0
 RMC_FPGA
 Text GLabel 3050 6200 3    50   BiDi ~ 0
 CCS_FPGA
@@ -69,7 +69,7 @@ Text GLabel 6050 3300 2    50   BiDi ~ 0
 A2_FPGA
 Text GLabel 4900 1300 1    50   BiDi ~ 0
 A1_FPGA
-Text GLabel 2350 6900 3    50   Output ~ 0
+Text GLabel 4350 6200 3    50   Output ~ 0
 SBG_FPGA
 Text GLabel 2650 6200 3    50   BiDi ~ 0
 RW_FPGA
@@ -327,7 +327,6 @@ NoConn ~ 2350 6200
 NoConn ~ 2550 6200
 NoConn ~ 2750 6200
 NoConn ~ 3550 6200
-NoConn ~ 4050 6200
 NoConn ~ 4150 6200
 NoConn ~ 4550 6200
 NoConn ~ 4750 6200
@@ -851,4 +850,5 @@ Text GLabel 3250 6200 3    50   Input ~ 0
 DIR_U7
 Text GLabel 1150 4400 0    50   Input ~ 0
 OE_U4
+NoConn ~ 4650 6200
 $EndSCHEMATC
