@@ -77,11 +77,11 @@ Text GLabel 2850 6200 3    50   BiDi ~ 0
 SIZ0_FPGA
 Text GLabel 6050 4100 2    50   BiDi ~ 0
 STERM_FPGA
-Text GLabel 2550 6900 3    50   BiDi ~ 0
+Text GLabel 5200 1300 1    50   BiDi ~ 0
 DSACK1_FPGA
-Text GLabel 2650 6900 3    50   Input ~ 0
+Text GLabel 6050 3600 2    50   Input ~ 0
 DSACK0_FPGA
-Text GLabel 2750 6900 3    50   Output ~ 0
+Text GLabel 1150 3100 0    50   Output ~ 0
 DS_FPGA
 Text GLabel 3150 6200 3    50   BiDi ~ 0
 AS_FPGA
@@ -473,8 +473,6 @@ Text Notes 7500 4200 0    50   ~ 0
 0805
 Wire Wire Line
 	10350 850  10450 850 
-Text GLabel 1150 2000 0    50   Input ~ 0
-JP1
 $Comp
 L Device:C C?
 U 1 1 608291F3
@@ -851,4 +849,5 @@ DIR_U7
 Text GLabel 1150 4400 0    50   Input ~ 0
 OE_U4
 NoConn ~ 4650 6200
+NoConn ~ 1150 2000
 $EndSCHEMATC

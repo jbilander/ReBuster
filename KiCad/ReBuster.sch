@@ -221,7 +221,7 @@ Text GLabel 10500 2850 2    50   BiDi ~ 0
 SIZ0_FPGA
 Text GLabel 8150 5800 2    50   BiDi ~ 0
 STERM_FPGA
-Text GLabel 12350 2150 2    50   Input ~ 0
+Text GLabel 8150 4200 2    50   Input ~ 0
 DS_FPGA
 Text GLabel 10500 3050 2    50   BiDi ~ 0
 AS_FPGA
@@ -540,11 +540,11 @@ Text GLabel 9200 3150 0    50   BiDi ~ 0
 SIZ1
 Text GLabel 9200 3050 0    50   BiDi ~ 0
 AS
-Text GLabel 12200 2150 0    50   Output ~ 0
+Text GLabel 7150 4100 0    50   Output ~ 0
 DS
-Text GLabel 12200 2050 0    50   Input ~ 0
+Text GLabel 7150 4200 0    50   Input ~ 0
 DSACK0
-Text GLabel 12200 1950 0    50   BiDi ~ 0
+Text GLabel 7150 4300 0    50   BiDi ~ 0
 DSACK1
 Text GLabel 7150 5800 0    50   BiDi ~ 0
 STERM
@@ -889,9 +889,9 @@ Text GLabel 8150 1550 2    50   Output ~ 0
 EBR0_FPGA
 Text GLabel 8150 2450 2    50   BiDi ~ 0
 A0_FPGA
-Text GLabel 12350 1950 2    50   BiDi ~ 0
+Text GLabel 8150 4400 2    50   BiDi ~ 0
 DSACK1_FPGA
-Text GLabel 12350 2050 2    50   Output ~ 0
+Text GLabel 8150 4300 2    50   Output ~ 0
 DSACK0_FPGA
 $Comp
 L ReBuster:SN74LVC16T245DGVR U4
