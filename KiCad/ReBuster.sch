@@ -121,8 +121,6 @@ Wire Wire Line
 	2500 7150 2850 7150
 Text GLabel 7150 2350 0    50   Input ~ 0
 VCC
-Connection ~ 2850 6850
-Connection ~ 2850 7150
 Wire Wire Line
 	10200 3900 10200 3800
 Wire Wire Line
@@ -301,10 +299,6 @@ Text GLabel 10200 6000 2    50   Input ~ 0
 BG_FPGA
 Text GLabel 10200 6100 2    50   BiDi ~ 0
 BR_FPGA
-Wire Wire Line
-	2850 6850 3200 6850
-Wire Wire Line
-	2850 7150 3200 7150
 Text GLabel 2150 7150 0    50   Input ~ 0
 VCC
 Text Notes 2300 6750 0    50   ~ 0
@@ -312,19 +306,8 @@ Text Notes 2300 6750 0    50   ~ 0
 $Comp
 L Device:C C24
 U 1 1 605F0F7B
-P 3200 7000
-F 0 "C24" H 3300 7000 50  0000 L CNN
-F 1 "0.01uF" H 3200 6900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 6850 50  0001 C CNN
-F 3 "~" H 3200 7000 50  0001 C CNN
-	1    3200 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C23
-U 1 1 605D5D6F
 P 2850 7000
-F 0 "C23" H 2950 7000 50  0000 L CNN
+F 0 "C24" H 2950 7000 50  0000 L CNN
 F 1 "0.01uF" H 2850 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 6850 50  0001 C CNN
 F 3 "~" H 2850 7000 50  0001 C CNN
@@ -332,10 +315,10 @@ F 3 "~" H 2850 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C22
-U 1 1 605D5659
+L Device:C C23
+U 1 1 605D5D6F
 P 2500 7000
-F 0 "C22" H 2600 7000 50  0000 L CNN
+F 0 "C23" H 2600 7000 50  0000 L CNN
 F 1 "0.01uF" H 2500 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 6850 50  0001 C CNN
 F 3 "~" H 2500 7000 50  0001 C CNN
@@ -343,14 +326,25 @@ F 3 "~" H 2500 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
-U 1 1 605D3E60
+L Device:C C22
+U 1 1 605D5659
 P 2150 7000
-F 0 "C21" H 2250 7000 50  0000 L CNN
+F 0 "C22" H 2250 7000 50  0000 L CNN
 F 1 "0.01uF" H 2150 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 6850 50  0001 C CNN
 F 3 "~" H 2150 7000 50  0001 C CNN
 	1    2150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 605D3E60
+P 2500 7450
+F 0 "C21" H 2600 7450 50  0000 L CNN
+F 1 "0.1uF" H 2500 7350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 7300 50  0001 C CNN
+F 3 "~" H 2500 7450 50  0001 C CNN
+	1    2500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -954,4 +948,40 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C
 	1    7650 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C25
+U 1 1 69EC0A34
+P 2150 7450
+F 0 "C25" H 2250 7450 50  0000 L CNN
+F 1 "0.1uF" H 2150 7350 50  0000 L CNN
+F 2 "ReBuster:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_extended" H 2188 7300 50  0001 C CNN
+F 3 "~" H 2150 7450 50  0001 C CNN
+	1    2150 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 7300 0    50   Input ~ 0
+GND
+Text GLabel 2150 7600 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	2500 7300 2150 7300
+Wire Wire Line
+	2500 7600 2150 7600
+$Comp
+L Device:C C26
+U 1 1 69EC70AB
+P 2850 7450
+F 0 "C26" H 2950 7450 50  0000 L CNN
+F 1 "0.1uF" H 2850 7350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 7300 50  0001 C CNN
+F 3 "~" H 2850 7450 50  0001 C CNN
+	1    2850 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7300 2850 7300
+Connection ~ 2500 7300
+Wire Wire Line
+	2500 7600 2850 7600
+Connection ~ 2500 7600
 $EndSCHEMATC
