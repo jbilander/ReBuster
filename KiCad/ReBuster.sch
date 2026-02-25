@@ -229,7 +229,7 @@ Text GLabel 8150 4000 2    50   BiDi ~ 0
 SLAVE3_FPGA
 Text GLabel 8150 4100 2    50   Input ~ 0
 EBCLR_FPGA
-Text GLabel 8150 4200 2    50   BiDi ~ 0
+Text GLabel 10500 2150 2    50   BiDi ~ 0
 EDS0_FPGA
 Text GLabel 10500 2050 2    50   BiDi ~ 0
 EA3_FPGA
@@ -702,7 +702,7 @@ Text GLabel 7150 4000 0    50   Output ~ 0
 EBCLR
 Text GLabel 2750 2850 2    50   BiDi ~ 0
 EDS0
-Text GLabel 7100 4100 0    50   BiDi ~ 0
+Text GLabel 9200 2150 0    50   BiDi ~ 0
 EDS0
 $Comp
 L ReBuster:Super_Buster_socket U9

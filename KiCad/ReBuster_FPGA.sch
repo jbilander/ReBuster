@@ -89,7 +89,7 @@ Text GLabel 1150 2100 0    50   BiDi ~ 0
 SLAVE3_FPGA
 Text GLabel 5100 1300 1    50   Output ~ 0
 EBCLR_FPGA
-Text GLabel 1150 3100 0    50   BiDi ~ 0
+Text GLabel 2050 6200 3    50   BiDi ~ 0
 EDS0_FPGA
 Text GLabel 1850 6200 3    50   BiDi ~ 0
 EA3_FPGA
