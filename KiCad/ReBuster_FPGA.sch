@@ -850,4 +850,44 @@ Text GLabel 1150 4400 0    50   Input ~ 0
 OE_U4
 NoConn ~ 4650 6200
 NoConn ~ 1150 2000
+$Comp
+L Device:C C?
+U 1 1 69ED3EAA
+P 9000 4450
+AR Path="/69ED3EAA" Ref="C?"  Part="1" 
+AR Path="/608A10F5/69ED3EAA" Ref="C?"  Part="1" 
+F 0 "C?" H 9100 4450 50  0000 L CNN
+F 1 "0.1uF" H 9000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 4300 50  0001 C CNN
+F 3 "~" H 9000 4450 50  0001 C CNN
+	1    9000 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 4200 0    50   ~ 0
+0603
+Wire Wire Line
+	8300 4300 9000 4300
+Connection ~ 8300 4300
+Wire Wire Line
+	9000 4600 8300 4600
+Connection ~ 8300 4600
+$Comp
+L Device:C C?
+U 1 1 69EDC81C
+P 9350 4450
+AR Path="/69EDC81C" Ref="C?"  Part="1" 
+AR Path="/608A10F5/69EDC81C" Ref="C?"  Part="1" 
+F 0 "C?" H 9450 4450 50  0000 L CNN
+F 1 "0.1uF" H 9350 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9388 4300 50  0001 C CNN
+F 3 "~" H 9350 4450 50  0001 C CNN
+	1    9350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4300 9350 4300
+Connection ~ 9000 4300
+Wire Wire Line
+	9000 4600 9350 4600
+Connection ~ 9000 4600
 $EndSCHEMATC
