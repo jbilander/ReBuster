@@ -231,9 +231,9 @@ Text GLabel 8150 4100 2    50   Input ~ 0
 EBCLR_FPGA
 Text GLabel 8150 4200 2    50   BiDi ~ 0
 EDS0_FPGA
-Text GLabel 8150 4300 2    50   BiDi ~ 0
+Text GLabel 10500 2050 2    50   BiDi ~ 0
 EA3_FPGA
-Text GLabel 8150 4400 2    50   BiDi ~ 0
+Text GLabel 10500 1950 2    50   BiDi ~ 0
 EA2_FPGA
 Text GLabel 8150 4700 2    50   BiDi ~ 0
 EBGACK_FPGA
@@ -646,9 +646,9 @@ Text GLabel 7150 5600 0    50   Input ~ 0
 CLK90
 Text GLabel 7150 4400 0    50   BiDi ~ 0
 SLAVE4
-Text GLabel 7100 4300 0    50   BiDi ~ 0
+Text GLabel 9200 1950 0    50   BiDi ~ 0
 EA2
-Text GLabel 7100 4200 0    50   BiDi ~ 0
+Text GLabel 9200 2050 0    50   BiDi ~ 0
 EA3
 Text GLabel 9200 2550 0    50   BiDi ~ 0
 EDS1
