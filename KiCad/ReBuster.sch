@@ -287,7 +287,7 @@ Text GLabel 10200 5600 2    50   Output ~ 0
 RESET_FPGA
 Text GLabel 10200 5500 2    50   Output ~ 0
 C7M_FPGA
-Text GLabel 10200 5800 2    50   Output ~ 0
+Text GLabel 10000 6400 2    50   Output ~ 0
 HLT_FPGA
 Text GLabel 10200 5700 2    50   Output ~ 0
 CPUCLK_FPGA
@@ -396,8 +396,6 @@ Text GLabel 950  4500 0    50   BiDi ~ 0
 READ
 Text GLabel 950  4400 0    50   Input ~ 0
 DBLT
-Text GLabel 950  3400 0    50   Output ~ 0
-HLT
 Text GLabel 950  3600 0    50   Output ~ 0
 RESET
 Text GLabel 950  3800 0    50   Output ~ 0
@@ -570,7 +568,7 @@ Text GLabel 9200 6000 0    50   Output ~ 0
 BG
 Text GLabel 9200 5900 0    50   BiDi ~ 0
 BGACK
-Text GLabel 9200 5800 0    50   Input ~ 0
+Text GLabel 9100 6400 0    50   Input ~ 0
 HLT
 Text GLabel 9200 5300 0    50   Output ~ 0
 BERR
@@ -797,8 +795,6 @@ Text GLabel 3900 4500 0    50   BiDi ~ 0
 READ
 Text GLabel 3900 4400 0    50   Input ~ 0
 DBLT
-Text GLabel 3900 3400 0    50   Output ~ 0
-HLT
 Text GLabel 3900 3600 0    50   Output ~ 0
 RESET
 Text GLabel 3900 3800 0    50   Output ~ 0
@@ -986,4 +982,14 @@ Text GLabel 10200 4700 2    50   BiDi ~ 0
 MTCR_CBTD_FPGA
 Text GLabel 9200 4600 0    50   BiDi ~ 0
 MTCR
+Text GLabel 9200 5800 0    50   BiDi ~ 0
+DTACK
+Text GLabel 10200 5800 2    50   BiDi ~ 0
+DTACK_CBTD_FPGA
+Text Label 950  3400 2    50   ~ 0
+HLT
+NoConn ~ 950  3400
+Text Label 3900 3400 2    50   ~ 0
+HLT
+NoConn ~ 3900 3400
 $EndSCHEMATC
