@@ -133,8 +133,6 @@ Text GLabel 1150 5000 0    50   BiDi ~ 0
 EDS2_FPGA
 Text GLabel 1150 4700 0    50   BiDi ~ 0
 EDS3_FPGA
-Text GLabel 6050 3700 2    50   Input ~ 0
-CDAC_FPGA
 Text GLabel 1150 5600 0    50   BiDi ~ 0
 LOCK_EA1_FPGA
 Text GLabel 3850 6200 3    50   Output ~ 0
@@ -909,4 +907,6 @@ Connection ~ 9350 4300
 Wire Wire Line
 	9350 4600 9700 4600
 Connection ~ 9350 4600
+Text GLabel 6050 3700 2    50   BiDi ~ 0
+MTCR_CBTD_FPGA
 $EndSCHEMATC

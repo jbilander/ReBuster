@@ -271,8 +271,6 @@ Text GLabel 10500 1350 2    50   BiDi ~ 0
 EDS2_FPGA
 Text GLabel 10500 1450 2    50   BiDi ~ 0
 EDS3_FPGA
-Text GLabel 10200 4700 2    50   Output ~ 0
-CDAC_FPGA
 Text GLabel 10500 1650 2    50   BiDi ~ 0
 LOCK_EA1_FPGA
 Text GLabel 10200 4900 2    50   Input ~ 0
@@ -404,8 +402,6 @@ Text GLabel 950  3600 0    50   Output ~ 0
 RESET
 Text GLabel 950  3800 0    50   Output ~ 0
 C7M
-Text GLabel 950  3900 0    50   Output ~ 0
-CDAC
 Text GLabel 950  4000 0    50   Input ~ 0
 D2P
 Text GLabel 950  4100 0    50   Input ~ 0
@@ -584,8 +580,6 @@ Text GLabel 9200 5700 0    50   Input ~ 0
 CPUCLK
 Text GLabel 9200 5500 0    50   Input ~ 0
 C7M
-Text GLabel 9200 4600 0    50   BiDi ~ 0
-CDAC
 Text GLabel 9200 5000 0    50   Output ~ 0
 D2P
 Text GLabel 9200 4900 0    50   Output ~ 0
@@ -809,8 +803,6 @@ Text GLabel 3900 3600 0    50   Output ~ 0
 RESET
 Text GLabel 3900 3800 0    50   Output ~ 0
 C7M
-Text GLabel 3900 3900 0    50   Output ~ 0
-CDAC
 Text GLabel 3900 4000 0    50   Input ~ 0
 D2P
 Text GLabel 3900 4100 0    50   Input ~ 0
@@ -984,4 +976,14 @@ Connection ~ 2500 7300
 Wire Wire Line
 	2500 7600 2850 7600
 Connection ~ 2500 7600
+Text Label 3900 3900 2    50   ~ 0
+CDAC
+NoConn ~ 3900 3900
+Text Label 950  3900 2    50   ~ 0
+CDAC
+NoConn ~ 950  3900
+Text GLabel 10200 4700 2    50   BiDi ~ 0
+MTCR_CBTD_FPGA
+Text GLabel 9200 4600 0    50   BiDi ~ 0
+MTCR
 $EndSCHEMATC
