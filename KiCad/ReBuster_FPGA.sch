@@ -277,7 +277,7 @@ AR Path="/60CC8F02" Ref="C?"  Part="1"
 AR Path="/608A10F5/60CC8F02" Ref="C18"  Part="1" 
 F 0 "C18" H 9450 3750 50  0000 L CNN
 F 1 "0.01uF" H 9350 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9388 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 3600 50  0001 C CNN
 F 3 "~" H 9350 3750 50  0001 C CNN
 	1    9350 3750
 	1    0    0    -1  
