@@ -195,9 +195,9 @@ Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
 Text GLabel 10500 1050 2    50   BiDi ~ 0
 DOE_FPGA
-Text GLabel 5650 6750 0    50   BiDi ~ 0
+Text GLabel 5550 6850 0    50   BiDi ~ 0
 DTACK_FPGA
-Text GLabel 5650 6950 0    50   BiDi ~ 0
+Text GLabel 5900 7350 0    50   BiDi ~ 0
 MTACK_FPGA
 Text GLabel 10200 4300 2    50   BiDi ~ 0
 CIIN_FPGA
@@ -287,8 +287,6 @@ Text GLabel 10200 5600 2    50   Output ~ 0
 RESET_FPGA
 Text GLabel 10200 5500 2    50   Output ~ 0
 C7M_FPGA
-Text GLabel 10000 6400 2    50   Output ~ 0
-HLT_FPGA
 Text GLabel 10200 5700 2    50   Output ~ 0
 CPUCLK_FPGA
 Text GLabel 10200 5900 2    50   BiDi ~ 0
@@ -554,9 +552,9 @@ Text GLabel 9200 4200 0    50   BiDi ~ 0
 CIIN
 Wire Wire Line
 	2750 5350 2750 5450
-Text GLabel 6450 6950 2    50   BiDi ~ 0
+Text GLabel 6100 7350 2    50   BiDi ~ 0
 MTACK
-Text GLabel 6450 6750 2    50   BiDi ~ 0
+Text GLabel 6550 6850 2    50   BiDi ~ 0
 DTACK
 Text GLabel 9200 1050 0    50   BiDi ~ 0
 DOE
@@ -568,8 +566,6 @@ Text GLabel 9200 6000 0    50   Output ~ 0
 BG
 Text GLabel 9200 5900 0    50   BiDi ~ 0
 BGACK
-Text GLabel 9100 6400 0    50   Input ~ 0
-HLT
 Text GLabel 9200 5300 0    50   Output ~ 0
 BERR
 Text GLabel 9200 5600 0    50   Input ~ 0
@@ -906,24 +902,11 @@ Text GLabel 10500 1550 2    50   Input ~ 0
 3V3
 Text GLabel 10500 2650 2    50   Input ~ 0
 3V3
-$Comp
-L Logic_LevelTranslator:74LVC2T45DC U7
-U 1 1 69AF9BA6
-P 6050 6850
-F 0 "U7" H 6450 7300 50  0000 C CNN
-F 1 "74LVC2T45DC" H 6650 7200 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 6050 6000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf" H 6300 6600 50  0001 C CNN
-	1    6050 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 5950 6350 1    50   Input ~ 0
+Text GLabel 6550 6950 2    50   Input ~ 0
 3V3
-Text GLabel 6150 6350 1    50   Input ~ 0
-VCC
-Text GLabel 6050 7350 3    50   Input ~ 0
+Text GLabel 5550 6950 0    50   Input ~ 0
 GND
-Text GLabel 5650 7150 0    50   Input ~ 0
+Text GLabel 5900 7450 0    50   Input ~ 0
 DIR_U7
 $Comp
 L ReBuster:SN74CBTD16210 U3
@@ -955,23 +938,6 @@ Wire Wire Line
 	2500 7300 2150 7300
 Wire Wire Line
 	2500 7600 2150 7600
-$Comp
-L Device:C C26
-U 1 1 69EC70AB
-P 2850 7450
-F 0 "C26" H 2950 7450 50  0000 L CNN
-F 1 "0.1uF" H 2850 7350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 7300 50  0001 C CNN
-F 3 "~" H 2850 7450 50  0001 C CNN
-	1    2850 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 7300 2850 7300
-Connection ~ 2500 7300
-Wire Wire Line
-	2500 7600 2850 7600
-Connection ~ 2500 7600
 Text Label 3900 3900 2    50   ~ 0
 CDAC
 NoConn ~ 3900 3900
@@ -992,4 +958,15 @@ NoConn ~ 950  3400
 Text Label 3900 3400 2    50   ~ 0
 HLT
 NoConn ~ 3900 3400
+$Comp
+L ReBuster:74LVC2G07GV,125 U7
+U 1 1 69FA962F
+P 6050 6950
+F 0 "U7" H 6050 7315 50  0000 C CNN
+F 1 "74LVC2G07GV,125" H 6050 7224 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6400 7150 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf" H 6400 7050 50  0001 L CNN
+	1    6050 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
