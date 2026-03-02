@@ -173,7 +173,7 @@ Text GLabel 8150 1950 2    50   Input ~ 0
 EBG0_FPGA
 Text GLabel 8150 2050 2    50   Input ~ 0
 EBG1_FPGA
-Text GLabel 10500 2550 2    50   BiDi ~ 0
+Text GLabel 10500 1750 2    50   BiDi ~ 0
 EDS1_FPGA
 Text GLabel 10500 2250 2    50   BiDi ~ 0
 FCS_FPGA
@@ -253,7 +253,7 @@ Text GLabel 8150 5500 2    50   Input ~ 0
 ABOE0_FPGA
 Text GLabel 8150 5700 2    50   Output ~ 0
 MS2_FPGA
-Text GLabel 10500 1750 2    50   BiDi ~ 0
+Text GLabel 10500 3500 2    50   BiDi ~ 0
 MTCR_FPGA
 Text GLabel 8150 5900 2    50   BiDi ~ 0
 CINH_FPGA
@@ -600,7 +600,7 @@ Text GLabel 950  5100 0    50   Output ~ 0
 MS2
 Text GLabel 7150 5700 0    50   Input ~ 0
 MS2
-Text GLabel 9200 1750 0    50   BiDi ~ 0
+Text GLabel 9150 3450 0    50   BiDi ~ 0
 MTCR
 Text GLabel 2750 4650 2    50   Output ~ 0
 MS0
@@ -632,7 +632,7 @@ Text GLabel 9200 1950 0    50   BiDi ~ 0
 EA2
 Text GLabel 9200 2050 0    50   BiDi ~ 0
 EA3
-Text GLabel 9200 2550 0    50   BiDi ~ 0
+Text GLabel 9200 1750 0    50   BiDi ~ 0
 EDS1
 Text GLabel 7150 2050 0    50   BiDi ~ 0
 BINT
