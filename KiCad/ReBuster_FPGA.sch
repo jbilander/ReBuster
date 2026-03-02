@@ -830,8 +830,6 @@ DIR_U4
 Text GLabel 10450 1250 3    50   Input ~ 0
 OE_U4
 NoConn ~ 9250 1750
-Text GLabel 3400 6150 3    50   Input ~ 0
-DIR_U7
 Text GLabel 1300 4350 0    50   Input ~ 0
 OE_U4
 NoConn ~ 4800 6150
@@ -944,4 +942,5 @@ Connection ~ 9350 4600
 Connection ~ 9000 4600
 Wire Wire Line
 	9000 4600 9350 4600
+NoConn ~ 3400 6150
 $EndSCHEMATC
