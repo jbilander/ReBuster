@@ -55,7 +55,7 @@ Text GLabel 1300 4150 0    50   BiDi ~ 0
 DOE_FPGA
 Text GLabel 1300 3550 0    50   BiDi ~ 0
 DTACK_FPGA
-Text GLabel 1300 4750 0    50   BiDi ~ 0
+Text GLabel 3500 6150 3    50   BiDi ~ 0
 MTACK_FPGA
 Text GLabel 5200 6150 3    50   BiDi ~ 0
 CIIN_FPGA
@@ -115,7 +115,7 @@ Text GLabel 6200 4350 2    50   Output ~ 0
 ABOE0_FPGA
 Text GLabel 5400 6150 3    50   Input ~ 0
 MS2_FPGA
-Text GLabel 3500 6550 3    50   BiDi ~ 0
+Text GLabel 950  4750 0    50   BiDi ~ 0
 MTCR_FPGA
 Text GLabel 6200 5050 2    50   BiDi ~ 0
 CINH_FPGA
@@ -830,10 +830,6 @@ DIR_U4
 Text GLabel 10450 1250 3    50   Input ~ 0
 OE_U4
 NoConn ~ 9250 1750
-Text GLabel 10450 2700 3    50   Input ~ 0
-DIR_U7
-Text GLabel 10450 2300 1    50   Input ~ 0
-GND
 Text GLabel 3400 6150 3    50   Input ~ 0
 DIR_U7
 Text GLabel 1300 4350 0    50   Input ~ 0
