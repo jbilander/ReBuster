@@ -127,11 +127,11 @@ Wire Wire Line
 	8150 3900 8150 3800
 Text GLabel 8150 1650 2    50   Input ~ 0
 GND
-Text GLabel 10500 1850 2    50   Input ~ 0
+Text GLabel 10400 1850 2    50   Input ~ 0
 GND
 Text GLabel 9200 1250 0    50   Input ~ 0
 GND
-Text GLabel 10500 1250 2    50   Input ~ 0
+Text GLabel 10400 1250 2    50   Input ~ 0
 GND
 Text GLabel 10200 5400 2    50   Input ~ 0
 GND
@@ -145,8 +145,6 @@ Text GLabel 8150 3800 2    50   Input ~ 0
 GND
 Text GLabel 8150 4500 2    50   Input ~ 0
 GND
-Text GLabel 9200 1550 0    50   Input ~ 0
-VCC
 Text GLabel 9200 1850 0    50   Input ~ 0
 GND
 Text GLabel 9200 2350 0    50   Input ~ 0
@@ -163,7 +161,7 @@ Text GLabel 7150 4500 0    50   Input ~ 0
 GND
 Text GLabel 7150 5200 0    50   Input ~ 0
 VCC
-Text GLabel 10500 3150 2    50   BiDi ~ 0
+Text GLabel 10400 3150 2    50   BiDi ~ 0
 SIZ1_FPGA
 Text GLabel 8150 1450 2    50   Output ~ 0
 EBR4_FPGA
@@ -173,9 +171,9 @@ Text GLabel 8150 1950 2    50   Input ~ 0
 EBG0_FPGA
 Text GLabel 8150 2050 2    50   Input ~ 0
 EBG1_FPGA
-Text GLabel 10500 1750 2    50   BiDi ~ 0
+Text GLabel 10400 1750 2    50   BiDi ~ 0
 EDS1_FPGA
-Text GLabel 10500 2250 2    50   BiDi ~ 0
+Text GLabel 10400 2250 2    50   BiDi ~ 0
 FCS_FPGA
 Text GLabel 8150 2650 2    50   Input ~ 0
 EBG2_FPGA
@@ -193,7 +191,7 @@ Text GLabel 8150 3250 2    50   BiDi ~ 0
 SLAVE2_FPGA
 Text GLabel 10200 5200 2    50   Output ~ 0
 WAIT_FPGA
-Text GLabel 10500 1050 2    50   BiDi ~ 0
+Text GLabel 10400 1050 2    50   BiDi ~ 0
 DOE_FPGA
 Text GLabel 5550 6850 0    50   BiDi ~ 0
 DTACK_FPGA
@@ -205,7 +203,7 @@ Text GLabel 10200 4600 2    50   Output ~ 0
 SBR_FPGA
 Text GLabel 10200 4800 2    50   BiDi ~ 0
 RMC_FPGA
-Text GLabel 10500 2450 2    50   BiDi ~ 0
+Text GLabel 10400 2450 2    50   BiDi ~ 0
 CCS_FPGA
 Text GLabel 8150 2250 2    50   BiDi ~ 0
 A2_FPGA
@@ -213,25 +211,25 @@ Text GLabel 8150 2350 2    50   BiDi ~ 0
 A1_FPGA
 Text GLabel 10200 4400 2    50   Input ~ 0
 SBG_FPGA
-Text GLabel 10500 2750 2    50   BiDi ~ 0
+Text GLabel 10400 2750 2    50   BiDi ~ 0
 RW_FPGA
-Text GLabel 10500 2850 2    50   BiDi ~ 0
+Text GLabel 10400 2850 2    50   BiDi ~ 0
 SIZ0_FPGA
 Text GLabel 8150 5800 2    50   BiDi ~ 0
 STERM_FPGA
 Text GLabel 8150 4200 2    50   Input ~ 0
 DS_FPGA
-Text GLabel 10500 3050 2    50   BiDi ~ 0
+Text GLabel 10400 3050 2    50   BiDi ~ 0
 AS_FPGA
 Text GLabel 8150 4000 2    50   BiDi ~ 0
 SLAVE3_FPGA
 Text GLabel 8150 4100 2    50   Input ~ 0
 EBCLR_FPGA
-Text GLabel 10500 2150 2    50   BiDi ~ 0
+Text GLabel 10400 2150 2    50   BiDi ~ 0
 EDS0_FPGA
-Text GLabel 10500 2050 2    50   BiDi ~ 0
+Text GLabel 10400 2050 2    50   BiDi ~ 0
 EA3_FPGA
-Text GLabel 10500 1950 2    50   BiDi ~ 0
+Text GLabel 10400 1950 2    50   BiDi ~ 0
 EA2_FPGA
 Text GLabel 8150 4700 2    50   BiDi ~ 0
 EBGACK_FPGA
@@ -265,13 +263,13 @@ Text GLabel 10200 4000 2    50   Input ~ 0
 DBR16_FPGA
 Text GLabel 10200 4100 2    50   Input ~ 0
 DBOE0_FPGA
-Text GLabel 10500 1150 2    50   BiDi ~ 0
+Text GLabel 10400 1150 2    50   BiDi ~ 0
 READ_FPGA
-Text GLabel 10500 1350 2    50   BiDi ~ 0
+Text GLabel 10400 1350 2    50   BiDi ~ 0
 EDS2_FPGA
-Text GLabel 10500 1450 2    50   BiDi ~ 0
+Text GLabel 10400 1450 2    50   BiDi ~ 0
 EDS3_FPGA
-Text GLabel 10500 1650 2    50   BiDi ~ 0
+Text GLabel 10400 1650 2    50   BiDi ~ 0
 LOCK_EA1_FPGA
 Text GLabel 10200 4900 2    50   Input ~ 0
 ABOE2_FPGA
@@ -330,17 +328,6 @@ F 1 "0.01uF" H 2150 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2188 6850 50  0001 C CNN
 F 3 "~" H 2150 7000 50  0001 C CNN
 	1    2150 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C25
-U 1 1 605D3E60
-P 2500 7450
-F 0 "C25" H 2600 7450 50  0000 L CNN
-F 1 "0.1uF" H 2500 7350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 7300 50  0001 C CNN
-F 3 "~" H 2500 7450 50  0001 C CNN
-	1    2500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -871,20 +858,9 @@ Text GLabel 8150 4400 2    50   BiDi ~ 0
 DSACK1_FPGA
 Text GLabel 8150 4300 2    50   Output ~ 0
 DSACK0_FPGA
-$Comp
-L ReBuster:SN74LVC16T245DGVR U4
-U 1 1 69A5D76D
-P 9850 2100
-F 0 "U4" H 9850 3515 50  0000 C CNN
-F 1 "SN74LVC16T245DGVR" H 9850 3424 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_4.4x9.7mm_P0.4mm" H 10350 3350 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/sn74lvc16t245" H 10350 3250 50  0001 L CNN
-	1    9850 2100
-	1    0    0    -1  
-$EndComp
-Text GLabel 10500 2350 2    50   Input ~ 0
+Text GLabel 10400 2350 2    50   Input ~ 0
 GND
-Text GLabel 10500 2950 2    50   Input ~ 0
+Text GLabel 10400 2950 2    50   Input ~ 0
 GND
 Text GLabel 9200 2950 0    50   Input ~ 0
 GND
@@ -892,15 +868,13 @@ Text GLabel 9200 950  0    50   Input ~ 0
 DIR_U4
 Text GLabel 9200 3250 0    50   Input ~ 0
 DIR_U4
-Text GLabel 10500 950  2    50   Input ~ 0
+Text GLabel 10400 950  2    50   Input ~ 0
 OE_U4
-Text GLabel 10500 3250 2    50   Input ~ 0
+Text GLabel 10400 3250 2    50   Input ~ 0
 OE_U4
-Text GLabel 9200 2650 0    50   Input ~ 0
-VCC
-Text GLabel 10500 1550 2    50   Input ~ 0
+Text GLabel 10400 1550 2    50   Input ~ 0
 3V3
-Text GLabel 10500 2650 2    50   Input ~ 0
+Text GLabel 10400 2650 2    50   Input ~ 0
 3V3
 Text GLabel 6550 6950 2    50   Input ~ 0
 3V3
@@ -919,25 +893,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtd16210.pdf" H 9300 2500 50  0001 C
 	1    7650 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C24
-U 1 1 69EC0A34
-P 2150 7450
-F 0 "C24" H 2250 7450 50  0000 L CNN
-F 1 "0.1uF" H 2150 7350 50  0000 L CNN
-F 2 "ReBuster:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_extended" H 2188 7300 50  0001 C CNN
-F 3 "~" H 2150 7450 50  0001 C CNN
-	1    2150 7450
-	1    0    0    -1  
-$EndComp
-Text GLabel 2150 7300 0    50   Input ~ 0
-GND
-Text GLabel 2150 7600 0    50   Input ~ 0
-VCC
-Wire Wire Line
-	2500 7300 2150 7300
-Wire Wire Line
-	2500 7600 2150 7600
 Text Label 3900 3900 2    50   ~ 0
 CDAC
 NoConn ~ 3900 3900
@@ -967,6 +922,21 @@ F 1 "74LVC2G07GV,125" H 6050 7224 50  0000 C CNN
 F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 6400 7150 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf" H 6400 7050 50  0001 L CNN
 	1    6050 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 2650 0    50   Input ~ 0
+3V3
+Text GLabel 9200 1550 0    50   Input ~ 0
+3V3
+$Comp
+L ReBuster:SN74LVC16245ADGVR U4
+U 1 1 6A051905
+P 9800 2100
+F 0 "U4" H 9800 3515 50  0000 C CNN
+F 1 "SN74LVC16245ADGVR" H 9800 3424 50  0000 C CNN
+F 2 "ReBuster:TSSOP-48_4.4x9.7mm_P0.4mm_custom" H 10250 3350 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/sn74lvc16245a" H 10250 3250 50  0001 L CNN
+	1    9800 2100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

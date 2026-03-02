@@ -246,14 +246,14 @@ GND
 $Comp
 L Device:C C?
 U 1 1 60CC8EF6
-P 10050 3750
+P 9000 4450
 AR Path="/60CC8EF6" Ref="C?"  Part="1" 
 AR Path="/608A10F5/60CC8EF6" Ref="C20"  Part="1" 
-F 0 "C20" H 10150 3750 50  0000 L CNN
-F 1 "0.1uF" H 10050 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10088 3600 50  0001 C CNN
-F 3 "~" H 10050 3750 50  0001 C CNN
-	1    10050 3750
+F 0 "C20" H 9100 4450 50  0000 L CNN
+F 1 "0.1uF" H 9000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9038 4300 50  0001 C CNN
+F 3 "~" H 9000 4450 50  0001 C CNN
+	1    9000 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -443,9 +443,6 @@ F 3 "~" H 8650 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 3900 10050 3900
-Connection ~ 9700 3900
-Wire Wire Line
 	7250 3900 7600 3900
 Wire Wire Line
 	7250 3600 7600 3600
@@ -525,9 +522,6 @@ $EndComp
 Connection ~ 9000 3600
 Wire Wire Line
 	9000 3600 9350 3600
-Wire Wire Line
-	10050 3600 9700 3600
-Connection ~ 9700 3600
 Wire Wire Line
 	8300 3900 8650 3900
 Connection ~ 8300 3900
@@ -849,65 +843,109 @@ NoConn ~ 1300 1950
 $Comp
 L Device:C C?
 U 1 1 69ED3EAA
-P 9000 4450
+P 10050 4450
 AR Path="/69ED3EAA" Ref="C?"  Part="1" 
-AR Path="/608A10F5/69ED3EAA" Ref="C27"  Part="1" 
-F 0 "C27" H 9100 4450 50  0000 L CNN
-F 1 "0.1uF" H 9000 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9038 4300 50  0001 C CNN
-F 3 "~" H 9000 4450 50  0001 C CNN
-	1    9000 4450
+AR Path="/608A10F5/69ED3EAA" Ref="C26"  Part="1" 
+F 0 "C26" H 10150 4450 50  0000 L CNN
+F 1 "0.1uF" H 10050 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10088 4300 50  0001 C CNN
+F 3 "~" H 10050 4450 50  0001 C CNN
+	1    10050 4450
 	1    0    0    -1  
 $EndComp
 Text Notes 8900 4200 0    50   ~ 0
 0603
 Wire Wire Line
-	8300 4300 9000 4300
-Connection ~ 8300 4300
+	9350 4300 9700 4300
 Wire Wire Line
-	9000 4600 8300 4600
-Connection ~ 8300 4600
+	10050 4600 9700 4600
 $Comp
 L Device:C C?
 U 1 1 69EDC81C
-P 9350 4450
+P 10400 4450
 AR Path="/69EDC81C" Ref="C?"  Part="1" 
-AR Path="/608A10F5/69EDC81C" Ref="C28"  Part="1" 
-F 0 "C28" H 9450 4450 50  0000 L CNN
-F 1 "0.1uF" H 9350 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9388 4300 50  0001 C CNN
-F 3 "~" H 9350 4450 50  0001 C CNN
-	1    9350 4450
+AR Path="/608A10F5/69EDC81C" Ref="C27"  Part="1" 
+F 0 "C27" H 10500 4450 50  0000 L CNN
+F 1 "0.1uF" H 10400 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10438 4300 50  0001 C CNN
+F 3 "~" H 10400 4450 50  0001 C CNN
+	1    10400 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 4300 9350 4300
-Connection ~ 9000 4300
+	10050 4300 10400 4300
+Connection ~ 10050 4300
 Wire Wire Line
-	9000 4600 9350 4600
-Connection ~ 9000 4600
+	10050 4600 10400 4600
+Connection ~ 10050 4600
 $Comp
 L Device:C C?
 U 1 1 69EF6B6A
-P 9700 4450
+P 10750 4450
 AR Path="/69EF6B6A" Ref="C?"  Part="1" 
-AR Path="/608A10F5/69EF6B6A" Ref="C29"  Part="1" 
-F 0 "C29" H 9800 4450 50  0000 L CNN
+AR Path="/608A10F5/69EF6B6A" Ref="C28"  Part="1" 
+F 0 "C28" H 10850 4450 50  0000 L CNN
+F 1 "0.1uF" H 10750 4350 50  0000 L CNN
+F 2 "ReBuster:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_extended" H 10788 4300 50  0001 C CNN
+F 3 "~" H 10750 4450 50  0001 C CNN
+	1    10750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4300 10750 4300
+Connection ~ 10400 4300
+Wire Wire Line
+	10400 4600 10750 4600
+Connection ~ 10400 4600
+Text GLabel 6200 3650 2    50   BiDi ~ 0
+MTCR_CBTD_FPGA
+Text GLabel 1300 5250 0    50   BiDi ~ 0
+DTACK_CBTD_FPGA
+Connection ~ 7800 1100
+$Comp
+L Device:C C?
+U 1 1 6A084E8F
+P 9700 4450
+AR Path="/6A084E8F" Ref="C?"  Part="1" 
+AR Path="/608A10F5/6A084E8F" Ref="C25"  Part="1" 
+F 0 "C25" H 9800 4450 50  0000 L CNN
 F 1 "0.1uF" H 9700 4350 50  0000 L CNN
 F 2 "ReBuster:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_extended" H 9738 4300 50  0001 C CNN
 F 3 "~" H 9700 4450 50  0001 C CNN
 	1    9700 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 6A084E95
+P 9350 4450
+AR Path="/6A084E95" Ref="C?"  Part="1" 
+AR Path="/608A10F5/6A084E95" Ref="C24"  Part="1" 
+F 0 "C24" H 9450 4450 50  0000 L CNN
+F 1 "0.1uF" H 9350 4350 50  0000 L CNN
+F 2 "ReBuster:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder_extended" H 9388 4300 50  0001 C CNN
+F 3 "~" H 9350 4450 50  0001 C CNN
+	1    9350 4450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9350 4300 9700 4300
+	9700 4600 9350 4600
+Connection ~ 9700 4300
+Wire Wire Line
+	9700 4300 10050 4300
+Connection ~ 9700 4600
+Wire Wire Line
+	8300 4300 9000 4300
+Connection ~ 8300 4300
 Connection ~ 9350 4300
+Connection ~ 9000 4300
 Wire Wire Line
-	9350 4600 9700 4600
+	9000 4300 9350 4300
+Wire Wire Line
+	8300 4600 9000 4600
+Connection ~ 8300 4600
 Connection ~ 9350 4600
-Text GLabel 6200 3650 2    50   BiDi ~ 0
-MTCR_CBTD_FPGA
-Text GLabel 1300 5250 0    50   BiDi ~ 0
-DTACK_CBTD_FPGA
-Connection ~ 7800 1100
+Connection ~ 9000 4600
+Wire Wire Line
+	9000 4600 9350 4600
 $EndSCHEMATC
