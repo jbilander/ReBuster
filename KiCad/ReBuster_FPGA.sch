@@ -83,7 +83,7 @@ Text GLabel 6200 3550 2    50   Input ~ 0
 DSACK0_FPGA
 Text GLabel 1300 3050 0    50   Output ~ 0
 DS_FPGA
-Text GLabel 3300 6150 3    50   BiDi ~ 0
+Text GLabel 4400 6500 3    50   BiDi ~ 0
 AS_FPGA
 Text GLabel 1300 2050 0    50   BiDi ~ 0
 SLAVE3_FPGA
@@ -123,7 +123,7 @@ Text GLabel 6200 4550 2    50   BiDi ~ 0
 A3_FPGA
 Text GLabel 6200 5150 2    50   Input ~ 0
 CBREQ_FPGA
-Text GLabel 4400 6150 3    50   Output ~ 0
+Text GLabel 3300 6150 3    50   Output ~ 0
 SIZ1_FPGA
 Text GLabel 4600 6150 3    50   Output ~ 0
 DBOE0_FPGA

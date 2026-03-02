@@ -161,7 +161,7 @@ Text GLabel 7150 4500 0    50   Input ~ 0
 GND
 Text GLabel 7150 5200 0    50   Input ~ 0
 VCC
-Text GLabel 10400 3400 2    50   BiDi ~ 0
+Text GLabel 9300 2750 0    50   BiDi ~ 0
 SIZ1_FPGA
 Text GLabel 8150 1450 2    50   Output ~ 0
 EBR4_FPGA
@@ -509,7 +509,7 @@ Text GLabel 10500 3050 2    50   BiDi ~ 0
 RW
 Text GLabel 10500 2850 2    50   BiDi ~ 0
 SIZ0
-Text GLabel 8800 3450 0    50   BiDi ~ 0
+Text GLabel 10500 2750 2    50   BiDi ~ 0
 SIZ1
 Text GLabel 9000 3450 0    50   BiDi ~ 0
 AS
