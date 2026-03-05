@@ -45,7 +45,7 @@ U1 | 10M04SCU169C8G  | BGA-169 11.0x11.0mm_Layout13x13 | Max 10 FPGA [10M04SCU16
 U2 | LM1117-3.3 | SOT-223 | Low-Dropout Linear Regulator 3.3 Volt
 U3,U5,U6 | SN74CBTD16210 | TSSOP-48 6.1x12.5mm_P0.5mm | 20-BIT FET Bus switch with level shifting, high-speed TTL-compatible. [74CBTD16210DGGR](https://www.mouser.com/ProductDetail/595-74CBTD16210DGGR)
 U4 | SN74LVC16245ADGVR | TSSOP-48_4.4x9.7mm_P0.4mm | 16-bit (dual-octal) noninverting bus transceiver [SN74LVC16245ADGVR](https://www.mouser.com/ProductDetail/595-SNLVC16245ADGVR)
-U7 | 74LVC2G07GV | TSSOP-48_4.4x9.7mm_P0.4mm | Open Drain noninverting line driver [74LVC2G07GV](https://www.mouser.com/ProductDetail/771-LVC2G07GV125)
+U7 | 74LVC2G07GV | TSOP-6_1.65x3.05mm_P0.95mm | Open Drain noninverting line driver [74LVC2G07GV](https://www.mouser.com/ProductDetail/771-LVC2G07GV125)
 U8 | Winslow PLCC-84 Plug | PLCC-84 Plug | Optionally use a home made plug (stacked PCBs)
 U9 | PLCC-84_TH_pin_holes | TH_plug_pins | Pins that could be used with the DIY-plug PCBs rev1d for manual fitting, L8.7mm [Aliexpress](https://www.aliexpress.com/item/32893608810.html).
 RN1, RN2 | CAY16-1002F4LF RES ARRAY 4 Resistors 10k Ω | 1206 | [CAY16-1002F4LF](https://www.mouser.com/ProductDetail/652-CAY16-1002F4LF)
